@@ -15,7 +15,7 @@ function Header() {
 
         <form action="" className="flex justify-between max-w-lg max-sm:scale-75 mx-auto border border-gray-300 bg-white rounded overflow-hidden ">
             <input className=" pl-4 outline-none" type="text"  placeholder="Search for blogs"/>
-            <button className="bg-primary text-white px-8 py2 m-1.5 rounded hover:scale-105 transition-all cursor-pointer" type="submit">Search</button>
+            <button className="bg-primary text-white px-8 py-2 m-1.5 rounded hover:scale-105 transition-all cursor-pointer" type="submit">Search</button>
         </form>
       </div>
       <img src={assets.gradiantBackground} className="absolute -top-50 -z-1 opacity-50" alt="" />
